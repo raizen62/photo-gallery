@@ -87,7 +87,7 @@ This project is a single-page application (SPA) built with React, TypeScript, an
 ### Image Optimization
 
 - **Responsive Images & Next‑Gen Formats**:
-  - The <picture> element is used with multiple srcSet candidates (small, medium, large, and large2x) along with the sizes attribute. This ensures that the browser downloads the appropriate resolution based on the device’s viewport.
+  - The`<picture>` element is used with multiple srcSet candidates (small, medium, large, and large2x) along with the sizes attribute. This ensures that the browser downloads the appropriate resolution based on the device’s viewport.
 - **URL Query Parameter Management**:
   - Image URLs provided by the Pexels API already include query parameters. The project simply appends additional parameters (e.g., &fm=avif or &fm=webp) to serve next‑gen formats without breaking the URL structure.
 
@@ -103,7 +103,7 @@ This project is a single-page application (SPA) built with React, TypeScript, an
 - **Pexels API**:
   - The app fetches curated photos and supports search functionality by querying the Pexels API.
 - **Environment Variables**:
-  - API keys are stored in environment variables (prefixed with VITE\_) and injected at build time.
+  - API keys are stored in environment variables (prefixed with `VITE\_`) and injected at build time.
 
 ### Additional Performance Enhancements
 
